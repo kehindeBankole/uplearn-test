@@ -1,0 +1,16 @@
+@import "../scss/index.scss";
+.job-box {
+    background-color: $box;
+    border-radius: 1em;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    color:white;
+    .title {
+      color: white;
+      text-align: center;
+    }
+    .company-name{
+        color: white;
+    }
+  }
