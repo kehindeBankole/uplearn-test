@@ -1,26 +1,40 @@
-import {
-    gql
-  } from "@apollo/client";
+import { gql } from "@apollo/client";
 
 export const JOBS = gql`
-query{
-    jobs{
-   title
+  query GetJobs {
+    jobs {
+      slug
+      title
       id
-      company{
+      company {
+        name
+        slug
+        logoUrl
+      }
+      cities {
+        name
+        id
+      }
+      countries {
         name
       }
-      cities{
-        name
-      }
-      countries{
-      name
-      }
-      remotes{
-       type
+      remotes {
+        type
       }
     }
   }
-  
-  
-`;
+`
+export const GETAJOB=gql`
+query getJob($input : JobInput!) {
+  job(input:$input){
+   id
+    title
+    description
+    applyUrl
+    company{
+      logoUrl
+      name
+    }
+  }
+}
+`

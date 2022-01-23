@@ -1,26 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`show 1`] = `
+exports[`take snapshot 1`] = `
 <div>
-  <div
-    className="job-box"
-  >
-    <h3
-      className="title"
+  <div>
+    <div
+      class="job-box"
     >
-      Senior Fullstack Engineer - Platform
-    </h3>
-    <h4
-      className="company-name"
-    >
-      Segment
-    </h4>
-    <span>
-      San Francisco
-    </span>
-    <p>
-      onsite
-    </p>
+      <h3
+        class="title"
+      >
+        Senior Fullstack Engineer - Platform
+      </h3>
+      <h4
+        class="company-name"
+      >
+        Segment
+      </h4>
+      <span>
+        San Francisco
+      </span>
+      <p>
+        onsite
+      </p>
+    </div>
   </div>
 </div>
 `;

@@ -1,4 +1,5 @@
 @import "../scss/index.scss";
+
 .job-box {
     background-color: $box;
     border-radius: 1em;
@@ -6,6 +7,7 @@
     height: 15rem;
     padding: 1rem;
     color:white;
+    cursor: pointer;
     .title {
       color: white;
       text-align: center;
@@ -13,4 +15,7 @@
     .company-name{
         color: white;
     }
+  }
+  Link{
+    text-decoration: none;
   }

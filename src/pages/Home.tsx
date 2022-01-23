@@ -5,6 +5,7 @@ import "./Home.scss";
 import JobCard from "../component/JobCard";
 import Loader from "../component/Loader";
 import Error from "../component/Error";
+
 function Home() {
   const { loading, error, data } = useQuery(JOBS);
   if (loading) return <Loader />;

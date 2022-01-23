@@ -1,0 +1,16 @@
+@import '../scss/index.scss';
+
+.about-box{
+    padding: 2rem;
+    button{
+        width: 10rem;
+        height: 5rem;
+        border: 0;
+        background-color: $box;
+        color:white;
+        cursor: pointer;
+        float: right;
+        font-weight: 600;
+        font-family: 'Dongle', sans-serif;
+    }
+}
