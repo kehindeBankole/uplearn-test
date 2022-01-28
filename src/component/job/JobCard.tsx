@@ -20,6 +20,7 @@ function JobCard({
       <div
         className="job-box"
         onClick={() => navigate(`/about/${slug}/${company?.slug}`)}
+        data-testid="job-box"
       >
         <h3 className="title">{title}</h3>
         <h4 className="company-name">{company?.name}</h4>
